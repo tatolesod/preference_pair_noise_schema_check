@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tatolesod-longctx_jd182"
+name = "tatolesod-preference_pair_noise_schema_check"
 version = "0.1.0"
 description = "从样本里推断长上下文优化工程师·偏好数据的成对噪声应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tatolesod.github.io"
-Repository = "https://github.com/tatolesod/longctx_jd182"
-Issues = "https://github.com/tatolesod/longctx_jd182/issues"
+Repository = "https://github.com/tatolesod/preference_pair_noise_schema_check"
+Issues = "https://github.com/tatolesod/preference_pair_noise_schema_check/issues"
 
 [project.scripts]
-longctx_jd182 = "longctx_jd182:main"
+preference_pair_noise_schema_check = "preference_pair_noise_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["longctx_jd182"]
+py-modules = ["preference_pair_noise_schema_check"]

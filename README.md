@@ -1,11 +1,11 @@
-# longctx_jd182
+# preference_pair_noise_schema_check
 
 **校验长上下文优化工程师·偏好数据的成对噪声的字段结构并列出缺失项。**
 
-`longctx_jd182` —— 从样本里推断长上下文优化工程师·偏好数据的成对噪声应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
+`preference_pair_noise_schema_check` —— 从样本里推断长上下文优化工程师·偏好数据的成对噪声应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`longctx_jd182.py` 拷走就能用
+- 单文件，`preference_pair_noise_schema_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install tatolesod-longctx_jd182
+pip install tatolesod-preference_pair_noise_schema_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-longctx_jd182 --help
+preference_pair_noise_schema_check --help
 ```
 
-也可以不用安装，直接把 `longctx_jd182.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `preference_pair_noise_schema_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ longctx_jd182 --help
 ## 用法
 
 ```bash
-python longctx_jd182.py --file input.txt
-python longctx_jd182.py --text "示例内容"
-python longctx_jd182.py --file input.txt --json
+python preference_pair_noise_schema_check.py --file input.txt
+python preference_pair_noise_schema_check.py --text "示例内容"
+python preference_pair_noise_schema_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python longctx_jd182.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_longctx_jd182.py
+python test_preference_pair_noise_schema_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_longctx_jd182.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/tatolesod/longctx_jd182>
+- GitHub 仓库：<https://github.com/tatolesod/preference_pair_noise_schema_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_longctx_jd182.py
 tatolesod 做长上下文优化工程师·偏好数据的成对噪声相关的问题，方向对标无问芯穹的资深长上下文优化工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://tatolesod.github.io>
-- 仓库：<https://github.com/tatolesod/longctx_jd182>
+- 仓库：<https://github.com/tatolesod/preference_pair_noise_schema_check>
 
 ## 许可
 
